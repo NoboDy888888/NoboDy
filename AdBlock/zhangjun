@@ -1,0 +1,2 @@
+# > 平安好车主  只保留这一条 其他的规则 主机名都删了
+^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox url reject-200
