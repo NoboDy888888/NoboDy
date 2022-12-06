@@ -5,8 +5,7 @@
 
 [rewrite_local]
 
-^https?://* url script-request-header https://raw.githubusercontent.com/NoboDy/main/Jiesuo.Xmly.js
-
+^https?://* url script-request-header https://raw.githubusercontent.com/NoboDy888888/NoboDy/main/Jiesuo/Xmly.js
 [mitm] 
 
 hostname = *
