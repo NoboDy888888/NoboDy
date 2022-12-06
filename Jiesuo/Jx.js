@@ -8,3 +8,10 @@
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad url reject-img
 
 ^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://github.com/NoboDy888888/NoboDy/edit/main/Jiesuo/Jx.js
+[mitm] 
+hostname = api.tipsoon.com
+*******************************/
+
+body = $response.body.replace(/\"is_vip":\w+/g, '\"is_vip":true')
+
+$done({body});
