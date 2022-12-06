@@ -7,4 +7,4 @@
 
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad url reject-img
 
-^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://github.com/NoboDy888888/NoboDy/edit/main/Jiesuo/Vip.conf
+^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://github.com/NoboDy888888/NoboDy/edit/main/Jiesuo/Jx.js
